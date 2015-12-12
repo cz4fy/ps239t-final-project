@@ -27,6 +27,7 @@ Code
 ---------------
 * 01_scrape_instagram.py: Scrapes Instagram to Collects geolocations information and urls of photos taken around lake merritt. Write output to csv. 
 * 02_geospatial.R: Maps geolocation of points where photos were taken and display the photos with ggplot and leaflet.
+
 Results
 --------------
 
