@@ -1,28 +1,40 @@
-'# ps239t-final-project
+´# ps239t-final-project
+This is a template you can use for your final project. Fill in each section with information on your own project.
 
 Short Description
 
-Scrape Instagram and get geolocatiions of public photos taken around Lake Merritt and URLs and map them to understand what current users are looking at. 
-
+Give a short, 1-2 paragraph description of your project. Focus on the code, not the theoretical / substantive / academic side of things.
 
 Dependencies
 
-R version 3.2.2
-Python 2.7.10 :: Anaconda 2.3.0 (x86_64)
-Leaflet for R
-Python-instagram
-gglot for R
+List what software your code depends on, as well as version numbers, like so:.
+
+R, version 3.1
+Python 2.7, Anaconda distribution.
+(In your code itself, includes commands that install required packages.)
 
 Files
 
+List all other files contained in the repo, along with a brief description of each one, like so:
+
 Data
 
-lake_merritt.csv: longtitude, latitude of public photos scraped from instagram and URLs to those photos.
+lake_merritt.csv: The PolityVI dataset, available here: http://www.systemicpeace.org/inscrdata.html
+nyt.csv: Contains data from the New York Times API collected via collect-nyt.ipynb . Includes information on all articles containing the term "Programmer Cat", 1980-2010.
+analysis-dataset.csv: The final Analysis Dataset derived from the raw data above. It includes country-year values for all UN countries 1980-2010, with observations for the following variables:
+ccode: Correlates of War numeric code for country observation
+year: Year of observation
+polity: PolityVI score
+nyt: Number of New York Times articles about "Programmer Cat"
 Code
 
-01_scrape_instagram.py: Collects data from New York Times API and exports data to the file nyt.csv
-02_geospatial.R: Maps geolocation of points where photos were taken and display the photos with ggplot and leaflet.
+01_collect-nyt.py: Collects data from New York Times API and exports data to the file nyt.csv
+02_merge-data.R: Loads, cleans, and merges the raw Polity and NYT datasets into the Analysis Dataset.
+03_analysis.R: Conducts descriptive analysis of the data, producing the tables and visualizations found in the Results directory.
 Results
 
-lakemerritt-ggplot.pdf: Static map that shows where photos are taken around lake merritt.
+coverage-over-time.jpeg: Graphs the number of articles about each region over time.
+regression-table.txt: Summarizes the results of OLS regression, modelling nyt on a number of covariates.
+More Information
 
+Include any other details you think your user might need to reproduce your results. You may also include other information such as your contact information, credits, etc.
