@@ -14,7 +14,7 @@ Dependencies
 * Python 2.7.10 :: Anaconda 2.3.0 (x86_64)
 * Leaflet for R
 * Python-instagram
-* gglot for R
+* ggplot for R
 
 **Files**
 ============
@@ -35,4 +35,4 @@ Results
 
 More Information
 -------------------
-This workflow can be easiily adapted for landscape architects and urban planners to understand existing users perception of a public space.
+This workflow can be easiily adapted for the use of landscape architects and urban planners to understand existing users perception of a public space.
