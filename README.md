@@ -32,6 +32,7 @@ Results
 --------------
 
 * lakemerritt-ggplot.pdf: Static map that shows where photos are taken around lake merritt.
+* lakemerritt.html: Exported interactive leafmap from Rstudio.
 
 More Information
 -------------------
