@@ -2693,7 +2693,8 @@
     },
     "properties": {
     "instaID":"1132289286088514148_195969693",
-    "image":"https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s480x480/e35/12346059_1653346384953803_2146188105_n.jpg"
+    "image":"https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s480x480/e35/12346059_1653346384953803_2146188105_n.jpg
+    "description":"<img src=\"https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/s640x640/sh0.08/e35/12357441_944621222284104_1693663647_n.jpg\n\"> "
     }
   },
   {
@@ -2751,17 +2752,5 @@
     "image":"https://scontent.cdninstagram.com/hphotos-xfp1/t51.2885-15/s640x640/sh0.08/e35/12301423_1647698145517932_113885871_n.jpg"
     }
   }
-];
-myLayer.on('layeradd', function(e) {
-    var marker = e.layer,
-        feature = marker.feature;
-
-    // Create custom popup content
-    var popupContent =  '<a target="_blank" class="popup" href="'<img src="' + feature.properties.image + '" />' +'</a>';
-
-    // http://leafletjs.com/reference.html#popup
-    marker.bindPopup(popupContent,{
-        closeButton: false,
-        minWidth: 320
-    });
-});
+]
+}
