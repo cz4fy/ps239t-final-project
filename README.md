@@ -32,7 +32,7 @@ Results
 --------------
 
 * lakemerritt-ggplot.pdf: Static map that shows where photos are taken around lake merritt.
-* lakemerritt.html: Exported interactive leafmap from Rstudio.
+* lakemerritt.html: Exported interactive map from Rstudio.
 * lakemerritt_photo_heatmap.png: Generated with CartoDB Density Map option to display where most photos are taken.
 * lakemerritt_geojson: Geojson file that is hosted on github to display points and urls.
 * slides_update.pdf: Presentation slides that document the process.
@@ -40,4 +40,5 @@ Results
 More Information
 -------------------
 This workflow can be easiily adapted for the use of landscape architects and urban planners to understand existing users perception of a public space.
-I am still exploring how to display images in geojson markers. 
+**I am still exploring how to display images in geojson markers.**
+ 
