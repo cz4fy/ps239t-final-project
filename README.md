@@ -36,9 +36,11 @@ Results
 * lakemerritt_photo_heatmap.png: Generated with CartoDB Density Map option to display where most photos are taken.
 * lakemerritt_geojson: Geojson file that is hosted on github to display points and urls.
 * slides_update.pdf: Presentation slides that document the process.
+* updated interactive map created and hosted on CartoDB: https://cz4fy.cartodb.com/viz/ff8d3d1e-a9fe-11e5-ba0c-0ecfd53eb7d3/public_map
 
 More Information
 -------------------
-This workflow can be easiily adapted for the use of landscape architects and urban planners to understand existing users perception of a public space.
-**I am still exploring how to display images in geojson markers.**
+**This workflow can be easiily adapted for the use of landscape architects and urban planners to understand existing users perception of a public space.**
+Tried to configure geojson code so that raster images can be displayed in markers but images don't show up on github, although they display in mapbox studio's open source map editor. But there's no easy way to automate displaying images in markers in mapbox editor*
+Finally I've come to CartoDB and manipulated html code for all markers easily with one line of code and help with this post: http://2015.padjo.org/tutorials/mapping/015-adding-nypd-precincts-vector-layer-to-cartodb/
  
