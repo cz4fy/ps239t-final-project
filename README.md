@@ -1,5 +1,5 @@
 **ps239t-final-project**
-=========================
+=======================
 
 Short Description
 ---------------------
@@ -42,5 +42,5 @@ More Information
 -------------------
 **This workflow can be easiily adapted for the use of landscape architects and urban planners to understand existing users perception of a public space.**
 My biggest struggle during the process was to configure geojson code so that raster images could be displayed in markers but images failed show up on github. Although they displayed in mapbox studio's open source map editor, there's no easy way to automate displaying images in markers in mapbox editor. 
-Finally I'd come to CartoDB and manipulated html code for all markers easily with one line of code  with the help from this post: http://2015.padjo.org/tutorials/mapping/015-adding-nypd-precincts-vector-layer-to-cartodb/
+Finally I had come to CartoDB and manipulated html code for all markers easily with one line of code and with many useful tips from this post: http://2015.padjo.org/tutorials/mapping/015-adding-nypd-precincts-vector-layer-to-cartodb/
  
